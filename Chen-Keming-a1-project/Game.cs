@@ -41,14 +41,14 @@ namespace MohawkGame2D
             Draw.Rectangle(280, 120, 80, 160); //right yellow part of mock-hamilton flag
 
 
-            Draw.SetLineSize(5);
+            Draw.SetLineSize(5); //prepares the hexagon's outline
             Draw.SetLineColor(229, 199, 55); //yellow line
             Draw.SetFillColor(33, 33, 177); //blue
-            Draw.Polygon(200, 200, 60, 6, 90, PolygoneMode.InsideRadius); //draws hexagon
+            Draw.Polygon(200, 200, 60, 6, 90, PolygoneMode.InsideRadius); //draws hexagon (yellow outline, blue)
 
 
             Draw.SetFillColor(229, 199, 55); //yellow
-            Draw.SetLineSize(1);
+            Draw.SetLineSize(1); //resets the line size
             Draw.Circle(200, 200, 30); //draws circle
 
 
